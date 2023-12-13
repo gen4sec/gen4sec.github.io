@@ -2,9 +2,19 @@ html, body {
   height: 100%;
 }
 
+a, a:visited {
+	color: #3261a9;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 hr {
    margin: 0 auto;
    margin-bottom: 20px;
+   color: #494d4e;
 }
 
 svg {
@@ -15,8 +25,9 @@ svg {
   padding: 20px;
   margin: 20px 0;
   border: 1px solid #eee;
-  border-left-width: 5px;
+  border-left-width: 8px;
   border-radius: 3px;
+  border-color: #3261a9;
   h4 {
 	margin-top: 0;
 	margin-bottom: 5px;
